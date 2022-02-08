@@ -6,4 +6,3 @@ WORKDIR /RS-FISH
 ENV JAVA_OPTS=""
 RUN ./install
 RUN sed -i "s|Xmx0g|Xmx8g|g" /RS-FISH/rs-fish
-#CMD ["/RS-FISH/rs-fish"]
